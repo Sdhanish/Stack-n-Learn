@@ -5,7 +5,7 @@ const About = () => {
   const [activeTab, setActiveTab] = useState('mission');
 
   return (
-    <section className="flex flex-col relative overflow-hidden px-10">
+    <section id="about" className="flex flex-col relative overflow-hidden px-10">
       {/* Water-fill Animated Vertical Bar */}
       <div className="hidden lg:block absolute left-[550px] top-12 bottom-12 w-1 bg-white z-10 overflow-hidden">
         <motion.div
